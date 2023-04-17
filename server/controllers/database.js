@@ -4,7 +4,7 @@ var db_centerNode = mysql.createPool({
     host : '34.142.151.50',
     user : 'root',
     password : '',
-    connectTimeout: 2000, 
+    connectTimeout: 10000, 
     database : 'Node',
     isolationLevel: 'READ COMMITTED'
 })
@@ -12,7 +12,7 @@ var db_pre1980 = mysql.createPool({
   host : '34.143.137.168',
   user : 'root',
   password : '',
-  connectTimeout: 2000, 
+  connectTimeout: 10000, 
   database : 'Node',
   isolationLevel: 'READ COMMITTED'
 })
@@ -20,7 +20,7 @@ var db_post1980 = mysql.createPool({
   host : '34.142.225.216',
   user : 'root',
   password : '',
-  connectTimeout: 2000, 
+  connectTimeout: 10000, 
   database : 'Node',
   isolationLevel: 'READ COMMITTED'
 })
