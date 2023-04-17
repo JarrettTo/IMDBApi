@@ -2,6 +2,7 @@ import mysql from "mysql2";
 import dotenv from 'dotenv';
 var db_centerNode = mysql.createPool({
     host : '34.142.151.50',
+    port : '3306',
     user : 'root',
     password : '',
     connectTimeout: 10000, 
@@ -11,6 +12,7 @@ var db_centerNode = mysql.createPool({
 var db_pre1980 = mysql.createPool({
   host : '34.143.137.168',
   user : 'root',
+  port : '3306',
   password : '',
   connectTimeout: 10000, 
   database : 'Node',
@@ -19,6 +21,7 @@ var db_pre1980 = mysql.createPool({
 var db_post1980 = mysql.createPool({
   host : '34.142.225.216',
   user : 'root',
+  port : '3306',
   password : '',
   connectTimeout: 10000, 
   database : 'Node',
